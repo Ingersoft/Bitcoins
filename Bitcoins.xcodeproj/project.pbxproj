@@ -12,6 +12,8 @@
 		35DAC8AB208BF8560092D8FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DAC8A9208BF8560092D8FC /* Main.storyboard */; };
 		35DAC8AD208BF8570092D8FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35DAC8AC208BF8570092D8FC /* Assets.xcassets */; };
 		35DAC8B0208BF8570092D8FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35DAC8AE208BF8570092D8FC /* LaunchScreen.storyboard */; };
+		35E7B8702093F1E5006F6C4C /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E7B86F2093F1E5006F6C4C /* MainNavigationController.swift */; };
+		35E7B8722093F4F6006F6C4C /* BuyBitCoins.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35E7B8712093F4F6006F6C4C /* BuyBitCoins.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		35DAC8AC208BF8570092D8FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35DAC8AF208BF8570092D8FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35DAC8B1208BF8570092D8FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35E7B86F2093F1E5006F6C4C /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		35E7B8712093F4F6006F6C4C /* BuyBitCoins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyBitCoins.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				35DAC8AC208BF8570092D8FC /* Assets.xcassets */,
 				35DAC8AE208BF8570092D8FC /* LaunchScreen.storyboard */,
 				35DAC8B1208BF8570092D8FC /* Info.plist */,
+				35E7B86F2093F1E5006F6C4C /* MainNavigationController.swift */,
+				35E7B8712093F4F6006F6C4C /* BuyBitCoins.swift */,
 			);
 			path = Bitcoins;
 			sourceTree = "<group>";
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35E7B8702093F1E5006F6C4C /* MainNavigationController.swift in Sources */,
 				35DAC8A8208BF8560092D8FC /* ViewController.swift in Sources */,
 				35DAC8A6208BF8560092D8FC /* AppDelegate.swift in Sources */,
+				35E7B8722093F4F6006F6C4C /* BuyBitCoins.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5D7FV82LD;
 				INFOPLIST_FILE = Bitcoins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A5D7FV82LD;
 				INFOPLIST_FILE = Bitcoins/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

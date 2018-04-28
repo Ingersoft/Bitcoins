@@ -10,8 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var MyMoney: String?
+    var MyBitCoins: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+//        print(MyMoney)
+//        print(MyBitCoins)
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
